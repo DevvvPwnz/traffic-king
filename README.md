@@ -2,7 +2,6 @@
 * ReactJS/React Hooks/Custom Hooks
 * React Router
 * Firebase(Firebase Auth with Email/edit/reset password)
-* ApexCharts
 * Material UI
 * React GSAP
 
