@@ -10,7 +10,7 @@
 
 ### If you want run app in the development mode
 
-#### Change in package.json start: "node server.js" to  "react-scripts start" and ran `npm start`
+#### Change in package.json start: "node server.js" to  "react-scripts start" and run `npm start`
 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
