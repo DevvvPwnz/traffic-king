@@ -1,0 +1,124 @@
+.about .about__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-align: center;
+}
+
+.about .about__items .about__item {
+  width: 33.333%;
+  background-color: #212322e3;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .about .about__items .about__item {
+    width: 100%;
+  }
+}
+
+.about .about__items .about__item .about__item-title {
+  margin: 10px;
+  font-size: 22px;
+  color: gold;
+}
+
+.about .about__brand {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.about .about__brand .about__brand-img {
+  position: absolute;
+  height: 75px;
+}
+
+.about .about__brand .about__title {
+  margin: 25px;
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 1px 11px 2px #fff;
+          box-shadow: 0px 1px 11px 2px #fff;
+  width: 200px;
+  height: 200px;
+  color: #ffd800;
+  font-size: 28px;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about .about__format {
+  -webkit-box-shadow: 1px 1px 12px 4px #fff;
+          box-shadow: 1px 1px 12px 4px #fff;
+  border-radius: 5px;
+  color: #ffd800;
+  font-size: 28px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 15px;
+  padding: 15px;
+}
+
+.swiper-container {
+  max-width: 900px;
+}
+
+.swiper-button-next::after, .swiper-button-prev::after {
+  color: #327b81;
+  margin: 10px;
+}
+
+.swiper-slide {
+  padding: 50px;
+  text-align: center;
+  cursor: move;
+}
+
+.format__ad {
+  background-color: #383c3b99;
+  border-radius: 5px;
+  padding: 15px;
+  max-width: 800px;
+  border: 2px solid #327b81;
+}
+
+.format__ad .format__ad-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.format__ad .format__ad-text {
+  background-color: #b5bdb94a;
+  color: #ecdc13;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.sec {
+  background: url(../../assets/imgs/dm-bg.png) no-repeat center;
+  background-size: cover;
+  width: 100%;
+}

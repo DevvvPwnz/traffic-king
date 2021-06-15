@@ -1,0 +1,60 @@
+.top-section{
+    height: 100vh;
+    background: url(../../assets/imgs/dm.jpg)center no-repeat;
+    background-size: cover;
+      .top-section__center{
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%,-50%);
+          background: #159957;  /* fallback for old browsers */
+          background: -webkit-linear-gradient(to right, #155799, #159957);  /* Chrome 10-25, Safari 5.1-6 */
+          background: linear-gradient(to right, #155799, #159957); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */          
+          color: #fff;
+          border-radius: 5px;
+          box-shadow: 1px 1px 12px 4px #fff;
+          font-weight: bold;
+          font-size: 31px;
+          padding: 15px;
+          white-space:nowrap;
+          text-align: center;
+          @media (max-width:768px) {
+              font-size: 26px;
+          }
+          @media (max-width:576px) {
+            font-size: 18px;
+        }
+        .top-section__center-t
+        .top-section__center-btn{
+            margin: 10px;
+            font-size:21px;
+        }
+        .btn__rocket{
+            display: flex;
+            justify-content: center;
+            border: 3px solid gold;
+            border-radius: 5px;
+            padding: 10px;
+                &:hover{
+                    color:gold;
+                    background-color: #39c15d36;
+                }
+                .btn__rocket-icon{
+                    margin-right: 5px;
+                    // animation: rocket 1s infinite;
+                }
+               
+        }
+      }
+   
+}
+
+@keyframes rocket {
+    from {
+        transform: scale(0.8);
+    }
+
+    to {
+        transform: scale(1.5);
+    }
+}

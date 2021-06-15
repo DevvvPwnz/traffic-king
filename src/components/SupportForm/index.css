@@ -1,0 +1,15 @@
+.support-page .support-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.support-page .support-icon:hover {
+  color: gold;
+}
+
+.support-page .support-form {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 100px 15px 15px 15px;
+}

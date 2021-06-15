@@ -1,0 +1,97 @@
+.support {
+  position: relative;
+  margin: 50px 0;
+  z-index: 1;
+}
+
+.support .support__prev {
+  background: url(../../assets//imgs/support.png) no-repeat center;
+  background-size: contain;
+  height: 400px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.support .support__prev .support__text {
+  font-size: 28px;
+  padding: 10px;
+  background-color: #b2c1ce54;
+}
+
+@media (max-width: 576px) {
+  .support .support__prev .support__text {
+    font-size: 20px;
+  }
+}
+
+.support .support__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.support .support__item .support__item-left {
+  background-color: gold;
+  width: 33.333%;
+  padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.support .support__item .support__item-right {
+  width: 33.333%;
+  padding: 15px;
+  background-color: #212322e3;
+  text-align: center;
+}
+
+.support .support__item .support__item-right .item__right-title {
+  font-size: 25px;
+  color: gold;
+  margin-bottom: 10px;
+}
+
+.support .support__item .support__item-right .item__right-text {
+  font-size: 20px;
+}
+
+.support .support__item .support__item-right .item__right-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 15px;
+  margin: 5px;
+  border: 2px solid gold;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.support .support__item .support__item-right .item__right-btn:hover {
+  background-color: #69686363;
+}
+
+@media (max-width: 768px) {
+  .support .support__item .support__item-left, .support .support__item .support__item-right {
+    width: 100%;
+  }
+}
